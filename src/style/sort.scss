@@ -1,0 +1,49 @@
+@import "./index.scss";
+
+.sort {
+  background-color: $colorBackZero;
+  max-width: 320px;
+  position: relative;
+  font-size: 20px;
+  color: $colorTitle;
+}
+
+.sort__wrapper {
+  display: flex;
+  justify-content: left;
+}
+
+.sort__label {
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.sort__category {
+  padding: 5px;
+  &:hover {
+    background: $colorBackmap;
+    border-radius: 5px;
+    box-shadow: $colorBoxWrapper;
+  }
+}
+
+.sort__popup {
+  position: absolute;
+  margin-top: 5px;
+  background-color: $colorBackModalButton;
+  color: $colorTitle;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: $colorBoxWrapper;
+}
+
+li {
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background: $colorBackmap;
+  }
+}
+.sort__active {
+  background-color: $colorBackmapOpacity;
+}

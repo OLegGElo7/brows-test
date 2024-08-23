@@ -1,0 +1,42 @@
+@import "./index.scss";
+
+.category {
+  margin-bottom: 25px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin-right: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 30px;
+      border-radius: 25px;
+      background: $colorBackButton;
+      box-shadow: $colorBoxWrapper;
+      color: $colorButton;
+      border: 0;
+      cursor: pointer;
+      &:hover,
+      :focus,
+      :active {
+        transition: 0.5s;
+        transform: scale(1.3);
+      }
+    }
+    .category__active {
+      margin-right: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 30px;
+      border-radius: 45px;
+      background-color: $colorBackActiveLi;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+}

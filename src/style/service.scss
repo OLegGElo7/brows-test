@@ -1,0 +1,71 @@
+@import "./index.scss";
+
+.price__title {
+  margin-top: 30px;
+  margin-bottom: 63px;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.price__cards {
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(6, 300px);
+  grid-template-rows: repeat(1, 360px);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding-bottom: 20.291px;
+  margin-bottom: 55px;
+  border-radius: 26px;
+  background: $colorBackCards;
+
+  .price__card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    h2 {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: $colorTitle;
+    }
+    p {
+      color: $colorParagraph;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 25px;
+    }
+    align-items: center;
+    img {
+      width: 100px;
+      height: 200px;
+      border-radius: 26px;
+    }
+    &:hover {
+      transition: 0.9s;
+      border-radius: 26px;
+      background: $colorBackActiveCards;
+      box-shadow: $colorBoxCards;
+      transform: scale(1.1);
+      h2 {
+        color: $colorButton;
+      }
+      p {
+        color: $colorWhiteOpacity;
+      }
+    }
+  }
+}
+.price__buttons {
+  a {
+    margin-right: 25px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

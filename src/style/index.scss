@@ -1,0 +1,41 @@
+@import "./reset.scss";
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 937px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+//font-family: 'Poppins', sans-serif;
+
+$colorTitle: #231d4f;
+$colorParagraph: #848199;
+$colorButton: #fff;
+$colorWhiteOpacity: #ffffffaf;
+
+$colorBackButton: #bb6bd9;
+$colorBackCards: rgba(255, 255, 255, 0.5);
+$colorBackActiveCards: #231d4fea;
+$colorBackmap: #6155bd63;
+$colorBackmapOpacity: #6155bd38;
+$colorBackSocial: #231d4fd2;
+$colorBackZero: rgba(0, 0, 0, 0);
+$colorBackHeader: rgba(149, 149, 149, 0);
+$colorBackModal: rgba(0, 18, 44, 0.856);
+$colorBackModalButton: rgb(197, 160, 217);
+$colorBackModalButtonOpacity: rgba(197, 160, 217, 0.506);
+$colorBackActiveLi: rgb(138, 14, 141);
+
+$colorBoxWrapper: 0px 1.993px 2.093px 0px rgba(85, 100, 87, 0.02),
+  0px 4.529px 4.755px 0px rgba(85, 100, 87, 0.02),
+  0px 7.882px 8.276px 0px rgba(85, 100, 87, 0.03),
+  0px 12.522px 13.148px 0px rgba(85, 100, 87, 0.04),
+  0px 19.32px 20.286px 0px rgba(85, 100, 87, 0.04),
+  0px 30.147px 31.654px 0px rgba(85, 100, 87, 0.05),
+  0px 50.049px 52.551px 0px rgba(85, 100, 87, 0.05),
+  0px 100px 105px 0px rgba(85, 100, 87, 0.07);
+$colorBoxCards: 42px 42px 34px 0px rgba(82, 67, 194, 0.3);
